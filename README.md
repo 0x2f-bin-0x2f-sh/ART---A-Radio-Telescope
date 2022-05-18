@@ -1,6 +1,11 @@
 # ART - A Radio Telescope
 Meet Art, he is A (simple) Radio Telescope. Art will be able to look into the galaxy and observe large hydrogen clouds undergoing quantum effects emitting radiation at a wavelength of approximatley 21 cm. Art will also measure the relative velocity of various parts of the Milky Way compared to the velocity of the Earth.
 
+### Features to implement:
+
+1) Hydrogen line spectrometry
+2) An interface to measure the temperature of the Sun 
+
 # Art is a work in progress, here is my research log!
 
 **Note:** Art is built on an ARM architecture Linux kernel, if you would like to use any of my work, you may need to run it on an ARM kernel, however, the code work should run on any architecture. The biggest problem I have come across is in the installation of librtlsdr and pyrtlsdr on an ARM processor. I ended up doing this in a ARM Linux VM running within an M1 MacBook Air.

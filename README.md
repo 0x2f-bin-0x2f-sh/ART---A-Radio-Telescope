@@ -64,7 +64,7 @@ Clearly, something is wrong. There is a similar shape to the graph produced with
 
 I have attempted to connect USB power to the LNA filter. When doing this with it not plugged into the RTL-SDR dongle, a white LED illuminates. However, as soon as it is plugged into my laptop via the RTL-SDR, the white light disappears, which may be an indication the device does not like two sources of power, so defaults to the power output of my laptop. I have also experimented with plugging the dongle (connected to the dish via the LNA) into a USB port and then plugging the USB power cable in – this produces a single ‘flash’ of the LED which is active for less than a second before turning off.
 
-The solution to this problem was to turn on the bias tee via: ./rtl_biast -b 1 (incorporated into my script now). This has produced the following graph, the next step will be to point my telescope at the sun and check there is a peak in the graph at the expected point.
+The solution to this problem was to turn on the bias tee via: ./rtl_biast -b 1 (incorporated into my script now). This has produced the following graph, the next step will be to point my telescope at various regions of space and check there is a peak in the graph at the expected point. Unfortunatley the plasma in the corona of the Sun will absorb the photons emitted at this wavelength, as the Sun would be an obvious candidate for testing the equipment with it being abundant in HI. 
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/49762827/169141052-d3fb0a59-8220-4bb9-9a47-19f129cd4a61.png">
  

@@ -26,7 +26,9 @@ Creating a homemade radio telescope using a parabolic dish to detect electromagn
 
 #### METHOD:
 
-1)	Point telescope at the zenith above to confirm accuracy 
+N.b. work in progress.. It is my intention to produce an engineered moving platform for Art so that the telescope may remain fixed on a certain region of space, or to map a sector of the milky way outside of the natural rotation of the Earth.
+
+1)	Point telescope at the zenith to confirm accuracy, and let the natural rotation of the Earth act as the rotational 'arm' of Art.
 
 #### REMOVAL OF ERRORS / CALIBRATION:
 1) To do 

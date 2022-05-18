@@ -23,7 +23,7 @@ Creating a homemade radio telescope using a parabolic dish to detect electromagn
 
 #### CONFOUNDING VARIABLES:
 
-1)	There is likely to be other forms of electromagnetic emission from Earth based sources operating around the 1.420e9 Hz frequency. This could cause spikes or interference with the results, so strong calibration and testing is required in built up areas, and remote areas to establish a baseline.
+1)	There is likely to be other forms of electromagnetic emission from Earth based sources operating around the 1.420e9 Hz frequency. This could cause peaks or interference with the results, so strong calibration and testing is required in built up areas, and remote areas to establish a baseline.
 2)	Doppler shift – due to the size of the galaxy, there is likely to be some doppler shift recorded due to the fact the galaxy is moving – at this time I do not know how significant the effect of the doppler shift will be on my results, but this should be obvious with small (and linear?) changes in the frequency around the line of the hydrogen emission.
 
 #### PRE-SETUP:
@@ -53,7 +53,7 @@ I have now successfully run my script and tested it across various frequencies o
 
 <img width="694" alt="image" src="https://user-images.githubusercontent.com/49762827/169140808-4eb6261a-5660-4031-a0d5-6076f598fa59.png">
 
-The spikes in the data indicate where a radio station is transmitting, hence a higher power density.
+The peaks in the data indicate where a radio station is transmitting, hence a higher power density.
 
 When viewing the hydrogen line, it produces this graph (important re update 2)
 
@@ -65,7 +65,7 @@ The correct size male to male connector has arrived for the LNA, so I have added
 
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/49762827/169140932-5df3503d-7ad0-4df6-968f-f6a79a100260.png">
 
-Clearly, something is wrong. There is a similar shape to the graph produced with no LNA filter in place, however there is one notable difference in that the graph has less spikes, it is smoother. Why this is, I do not currently know.
+Clearly, something is wrong. There is a similar shape to the graph produced with no LNA filter in place, however there is one notable difference in that the graph has less peaks, it is smoother. Why this is, I do not currently know.
 
 I have attempted to connect USB power to the LNA filter. When doing this with it not plugged into the RTL-SDR dongle, a white LED illuminates. However, as soon as it is plugged into my laptop via the RTL-SDR, the white light disappears, which may be an indication the device does not like two sources of power, so defaults to the power output of my laptop. I have also experimented with plugging the dongle (connected to the dish via the LNA) into a USB port and then plugging the USB power cable in – this produces a single ‘flash’ of the LED which is active for less than a second before turning off.
 

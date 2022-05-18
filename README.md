@@ -11,7 +11,7 @@ Creating a homemade radio telescope using a parabolic dish to detect electromagn
 
 #### REQUIREMENTS:
 
-1) Parabolic ‘radio’ dish
+1) Parabolic reflector
 2) RTL-SDR (software defined radio) USB attachment for computer
 3) Coaxial cable (SMA)
 4) Low Noise Amplifier to detect the hydrogen line

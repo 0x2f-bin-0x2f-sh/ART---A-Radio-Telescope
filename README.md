@@ -82,4 +82,4 @@ Analysing the two results, this is correct. The large peak on the left hand side
  
 #### REFERENCES
 
-HELMUT HELLWIG, ROBERT F. C. VESSOT, MARTIN W. LEVINE, PAUL W. ZITZEWITZ, DAVID W. ALLAN, AND DAVID J. GLAZE (1970) ‘Measurement of the Unperturbed Hydrogen Hyperfine Transition Frequency’. Available at: ‘https://tf.nist.gov/general/pdf/13.pdf’ (page 1 [200]).
+HELMUT HELLWIG, ROBERT F. C. VESSOT, MARTIN W. LEVINE, PAUL W. ZITZEWITZ, DAVID W. ALLAN, AND DAVID J. GLAZE (1970) ‘Measurement of the Unperturbed Hydrogen Hyperfine Transition Frequency’. Available at: https://tf.nist.gov/general/pdf/13.pdf (page 1 [200]).

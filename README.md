@@ -77,7 +77,7 @@ From GQRX to compare results:
 
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/49762827/169141110-a27029a9-96b4-4112-aed5-f5de9e2155a9.png">
 
-Analysing the two results, this is correct. The large peak on the left hand side up to approximately -52 dB Hz<sup>-1</sup> coincides with the peak at -70 dB Hz<sup>-1</sup> (frequency is approximately 1 419 900 kHz).
+Analysing the two results, this is correct. The large peak on the left hand side reaches approximately -52 dB Hz<sup>-1</sup>, this coincides with the peak from my script at -70 dB Hz<sup>-1</sup> (frequency is approximately 1 419 900 kHz).
  
  
 #### REFERENCES

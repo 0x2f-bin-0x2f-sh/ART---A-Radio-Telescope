@@ -12,7 +12,7 @@ Meet Art, he is A (simple) Radio Telescope. Art will be able to look into the ga
 
 #### OBJECTIVE
 
-Creating a homemade radio telescope using a parabolic dish to detect electromagnetic emission from hydrogen atoms undergoing a quantum spin-flip. This photon will be detectable at a frequency of 1.420e9 Hz (Helmut Hellwig et al. 1970).
+Creating a homemade radio telescope using a parabolic dish to detect electromagnetic emission from hydrogen atoms undergoing quantum spin-flip (and additionally to measure the temperature of the Sun). This photon will be detectable at a frequency of 1.420e9 Hz (Helmut Hellwig et al. 1970).
 
 #### REQUIREMENTS:
 

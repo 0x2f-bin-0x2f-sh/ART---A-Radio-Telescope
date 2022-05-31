@@ -69,7 +69,7 @@ Clearly, something is wrong. There is a similar shape to the graph produced with
 
 I have attempted to connect USB power to the LNA filter. When doing this with it not plugged into the RTL-SDR dongle, a white LED illuminates. However, as soon as it is plugged into my laptop via the RTL-SDR, the white light disappears, which may be an indication the device does not like two sources of power, so defaults to the power output of my laptop. I have also experimented with plugging the dongle (connected to the dish via the LNA) into a USB port and then plugging the USB power cable in – this produces a single ‘flash’ of the LED which is active for less than a second before turning off.
 
-The solution to this problem was to turn on the bias tee via: ./rtl_biast -b 1 (incorporated into my script now). This has produced the following graph, the next step will be to point my telescope at various regions of space and check there is a peak in the graph at the expected point. Unfortunatley the plasma in the corona of the Sun will absorb the photons emitted at this wavelength, as the Sun would be an obvious candidate for testing the equipment with it being abundant in HI. 
+The solution to this problem was to turn on the bias tee via: ./rtl_biast -b 1 (incorporated into my script now). This has produced the following graph, the next step will be to point my telescope at various regions of space and check there is a peak in the graph at the expected point. Unfortunatley the plasma in the corona of the Sun will absorb the photons emitted at this wavelength, as the Sun would be an obvious candidate for testing the equipment with it being abundant in HI!
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/49762827/169141052-d3fb0a59-8220-4bb9-9a47-19f129cd4a61.png">
  
@@ -79,7 +79,15 @@ From GQRX to compare results:
 
 Analysing the two results, this is correct. The large peak on the left hand side reaches approximately -52 dB Hz<sup>-1</sup>, this coincides with the peak from my script at -70 dB Hz<sup>-1</sup> (frequency is approximately 1 419 900 kHz).
  
- 
+#### UPDATE 3 - 31/05/2022
+
+It has been a busy few weeks!
+ 
+I now have much more consistent results with my program producing plots as below, I now need to test it when my zenith will pass the galactic equator, this should give me the best results.
+
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/49762827/171276487-47b91d11-41d1-4115-90fa-a325c78fb61d.png">
+
+
 #### REFERENCES
 
 HELMUT HELLWIG, ROBERT F. C. VESSOT, MARTIN W. LEVINE, PAUL W. ZITZEWITZ, DAVID W. ALLAN, AND DAVID J. GLAZE (1970) ‘Measurement of the Unperturbed Hydrogen Hyperfine Transition Frequency’. Available at: https://tf.nist.gov/general/pdf/13.pdf (page 1 [200]).

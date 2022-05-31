@@ -83,7 +83,9 @@ Analysing the two results, this is correct. The large peak on the left hand side
 
 It has been a busy few weeks!
  
-I now have much more consistent results with my program producing plots as below, I now need to test it when my zenith will pass the galactic equator, this should give me the best results.
+I now have much more consistent results with my program producing plots as below, I now need to test it when my zenith will pass the galactic equator, this should give me the best results. The two graphs are different shapes, so I will split my code into my current updated version and older version, and when we pass the equator (or other area of high emission) I will compare the two graphs as to which provides better data.
+
+From there, I will then develop a method to produce a pixel map of measurements, possibly using a coordinate based system of the galaxy and Earth's relative position.
 
 <img width="728" alt="image" src="https://user-images.githubusercontent.com/49762827/171276487-47b91d11-41d1-4115-90fa-a325c78fb61d.png">
 

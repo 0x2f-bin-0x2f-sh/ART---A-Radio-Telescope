@@ -1,6 +1,8 @@
 # ART - A Radio Telescope
 Meet Art, he is A (simple) Radio Telescope. Art will be able to look into the galaxy and observe large hydrogen clouds undergoing quantum effects emitting radiation at a wavelength of approximatley 21 cm. Art will also measure the relative velocity of various parts of the Milky Way compared to the velocity of the Earth.
 
+The code is simple at the moment, so I'm using git more as a research log than my code base for the time being.
+
 ### Features to implement:
 
 1) Hydrogen line spectrometry

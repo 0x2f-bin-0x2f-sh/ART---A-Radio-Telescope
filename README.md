@@ -1,5 +1,5 @@
 # ART - A Radio Telescope
-Meet Art, he is A (simple) Radio Telescope. Art will be able to look into the galaxy and observe large hydrogen clouds undergoing quantum effects emitting radiation at a wavelength of approximatley 21 cm. Art will also measure the relative velocity of various parts of the Milky Way compared to the velocity of the Earth.
+Meet Art, he is A (simple) Radio Telescope. Art will be able to look into the galaxy and observe large hydrogen clouds emitting radiation at a wavelength of approximatley 21 cm. Art will also measure the relative velocity of various parts of the Milky Way compared to the velocity of the Earth.
 
 The code is simple at the moment, so I'm using git more as a research log than my code base for the time being.
 
@@ -14,7 +14,7 @@ The code is simple at the moment, so I'm using git more as a research log than m
 
 #### OBJECTIVE
 
-Creating a homemade radio telescope using a parabolic dish to detect electromagnetic emission from hydrogen atoms undergoing quantum spin-flip (and additionally to measure the temperature of the Sun). This photon will be detectable at a frequency of 1.420 x 10<sup>9</sup> Hz (Helmut Hellwig et al. 1970).
+Creating a homemade radio telescope using a parabolic dish to detect electromagnetic emission from hydrogen atoms (and additionally to try and measure the temperature of the Sun). This photon will be detectable at a frequency of 1.420 x 10<sup>9</sup> Hz (Helmut Hellwig et al. 1970).
 
 #### REQUIREMENTS:
 

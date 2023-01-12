@@ -89,8 +89,6 @@ I now have much more consistent results with my program producing plots as below
 
 From there, I will then develop a method to produce a pixel map of measurements, possibly using a coordinate based system of the galaxy and Earth's relative position.
 
-<img width="728" alt="image" src="https://user-images.githubusercontent.com/49762827/171276487-47b91d11-41d1-4115-90fa-a325c78fb61d.png">
-
 
 #### REFERENCES
 
